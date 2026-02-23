@@ -8,12 +8,13 @@ Webapp moderne et immersive simulant une agence de voyage temporel. Projet réal
 
 ## Démo en ligne
 
-App publique : [TimeTravel Agency](https://vm-w7ildhxboqro7ncbfa3fwq.vusercontent.net/)
+App publique : [TimeTravel Agency](https://vm-v54g8l02bi4v7ucayu16ba.vusercontent.net/)
 
 ## Membres du groupe
 
 - Robin Thiriet
 - Thomas Fauroux
+- Tristan Truckle
 
 ## Mission du projet
 
