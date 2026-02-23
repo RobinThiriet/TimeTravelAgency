@@ -6,12 +6,13 @@ Webapp moderne et interactive pour une agence fictive de voyage temporel, realis
 
 L'application est accessible directement ici:
 
-https://vm-w7ildhxboqro7ncbfa3fwq.vusercontent.net/
+https://vm-v54g8l02bi4v7ucayu16ba.vusercontent.net/
 
 ## Membres du groupe
 
 - Robin Thiriet
 - Thomas Fauroux
+- Tristan Truckle
 
 ## Mission du projet
 
