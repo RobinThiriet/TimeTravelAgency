@@ -8,7 +8,7 @@ import { motion } from "motion/react";
 
 export function DestinationCard({ destination }: { destination: Destination }) {
   return (
-    <motion.div whileHover={{ y: -8, transition: { duration: 0.35, ease: [0.22, 1, 0.36, 1] } }}>
+    <motion.div whileHover={{ y: -8, transition: { duration: 0.35, ease: [0.22, 1, 0.36, 1] as const } }}>
       <Link
         href={`/destinations/${destination.slug}`}
         className="group relative flex h-full flex-col overflow-hidden rounded-xl border border-border/60 bg-card transition-all duration-500 hover:border-primary/50 hover:shadow-[0_12px_48px_rgba(196,166,71,0.10)]"

@@ -7,7 +7,7 @@ import { motion } from "motion/react";
 import type { Destination } from "@/lib/destinations";
 import { ScrollReveal } from "@/components/scroll-reveal";
 
-const ease = [0.22, 1, 0.36, 1];
+const ease = [0.22, 1, 0.36, 1] as const;
 
 export function DestinationDetail({ dest }: { dest: Destination }) {
   function openChat() {

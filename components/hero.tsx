@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ChevronDown } from "lucide-react";
 import { motion } from "motion/react";
 
-const ease = [0.22, 1, 0.36, 1];
+const ease = [0.22, 1, 0.36, 1] as const;
 
 export function Hero() {
   return (
