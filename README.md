@@ -1,12 +1,14 @@
-# TimeTravel Agency - Webapp Interactive
+# TimeTravel Agency — Webapp interactive
 
-Webapp moderne et interactive pour une agence fictive de voyage temporel, realisee dans le cadre du projet final Ynov.
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/) [![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge)](https://www.framer.com/motion/) [![Mistral](https://img.shields.io/badge/Mistral_AI-grey?style=for-the-badge)](#)
 
-## Application en ligne
+Webapp moderne et immersive simulant une agence de voyage temporel. Projet réalisé dans le cadre du projet final Ynov.
 
-L'application est accessible directement ici:
+<p align="center"><img src="public/images/homepage.png" alt="Capture d'écran de l'application" style="max-width:600px;width:80%;height:auto;" /></p>
 
-https://vm-v54g8l02bi4v7ucayu16ba.vusercontent.net/
+## Démo en ligne
+
+App publique : [TimeTravel Agency](https://vm-v54g8l02bi4v7ucayu16ba.vusercontent.net/)
 
 ## Membres du groupe
 
@@ -58,11 +60,11 @@ npm install
 npm run dev
 ```
 
-Application locale: `http://localhost:3000`
+Application locale : http://localhost:3000
 
-## Variables d'environnement (optionnel)
+## Configuration (variables d'environnement)
 
-Creer `.env.local`:
+Créer un fichier `.env.local` à la racine pour activer le chatbot Mistral :
 
 ```env
 MISTRAL_API_KEY=your_key_here
@@ -80,30 +82,18 @@ Sans ces variables, le chatbot fonctionne en mode mock local.
 
 ## Structure du projet
 
-```text
-app/
-  page.tsx
-  destinations/
-  api/chat/route.ts
-components/
-  hero.tsx
-  featured-destinations.tsx
-  destination-detail.tsx
-  chatbot-widget.tsx
-  travel-quiz.tsx
-  faq-section.tsx
-  reservation-section.tsx
-lib/
-  destinations.ts
-  chatbot.ts
-public/
-  images/
-  videos/
-```
+Voir l'organisation principale :
 
-## Deploiement
+[app/](app/)
+[components/](components/)
+[lib/](lib/)
+[public/](public/)
 
-Plateforme recommandee: **Vercel**
+Les composants UI se trouvent dans le dossier `components/` et les helpers dans `lib/`.
+
+## Déploiement
+
+Plateforme recommandée : Vercel
 
 1. Importer le repository GitHub
 2. Ajouter les variables d'environnement (optionnel)
@@ -119,11 +109,7 @@ Plateforme recommandee: **Vercel**
 
 ## Rollback
 
-Tag de secours disponible:
-
-- `initial-stable`
-
-Commande:
+Tag de secours disponible : `initial-stable`
 
 ```bash
 git checkout initial-stable
@@ -131,4 +117,5 @@ git checkout initial-stable
 
 ## Licence
 
-Projet pedagogique - Ynov Campus.
+Projet pédagogique — Ynov Campus.
+
